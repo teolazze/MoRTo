@@ -5,6 +5,7 @@ for a custom card game called **Morto**. It also provides **card-counting statis
 to study how deck composition affects outcomes and expected value.
 
 > **NB:** For now, do **not** trust uncertainty estimates from simulations.
+> **Current version:** v1.0
 
 ---
 
@@ -123,13 +124,12 @@ sogliaTC2: 7
 #### Parameters
 
 - **`sabot`**  
-  Number of simulated games/shoes (depending on the simulation loop).  
-  In the current code structure, this is typically mapped to `nGame` (number of iterations).
+  Number of simulated games/shoes.  
 
 - **`taglio`**  
   Cut-card position / penetration control: how many cards are left before reshuffling  
   (or before starting a new shoe).  
-  Example: `14` means the shoe is considered finished when ~14 cards remain.
+  Example: 14 means the cut card is placed 14 cards from the end of the shoe. When the cut card is reached during play, exactly one more round is played after the round in which it appears.
 
 - **`sogliaTC1`**  
   Threshold for **True Count System 1**.  
