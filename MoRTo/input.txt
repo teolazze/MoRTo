@@ -1,0 +1,19 @@
+===============================
+PARAMETRI CALCOLO COMBINATORIO:
+===============================
+
+mazzi: 4
+vincita_asso: 4
+rulesp: {true,true,true,true,true,false,false,false,false,false}
+rulesd: {true,true,true,true,true,true,false,false,false,false}
+
+
+
+===============================
+PARAMETRI SIMULAZIONE:
+===============================
+
+sabot: 10000
+taglio: 14
+sogliaTC1: 7
+sogliaTC2: 7

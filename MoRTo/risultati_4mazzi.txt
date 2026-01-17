@@ -1,0 +1,238 @@
+==========================
+=== CALCOLO COMBINATORIO ===
+==========================
+mazzi = 4 mazzi
+punt_asso = 4
+regole:
+- player cambia se ha {1,2,3,4,5};
+- dealer cambia se ha {1,2,3,4,5,6}.
+
+=== COMPLETO ===
+lost: 1840896, win: 1780224, asso: 3360, push: 395040, tot: 4019520
+P(win)  = 0.442895
+P(lost) = 0.457989
+P(asso) = 0.000836
+P(push) = 0.098280
+EV  = -0.011751
+EV% = -1.175
+var = 0.914120
+bet_frequency = 1.000000
+win/100 hands = -1.175
+
+=== REMOVED 1 Cuori ===
+lost: 1805840, win: 1744624, asso: 2730, push: 390960, tot: 3944154
+P(win)  = 0.442332
+P(lost) = 0.457852
+P(asso) = 0.000692
+P(push) = 0.099124
+EV  = -0.012752
+EV% = -1.275
+var = 0.911096
+bet_frequency = 1.000000
+win/100 hands = -1.275
+EOR% = -0.100138%
+System1 = -10.0
+System2 = -10
+
+=== REMOVED 2 Cuori ===
+lost: 1806080, win: 1744624, asso: 3360, push: 390090, tot: 3944154
+P(win)  = 0.442332
+P(lost) = 0.457913
+P(asso) = 0.000852
+P(push) = 0.098903
+EV  = -0.012174
+EV% = -1.217
+var = 0.913727
+bet_frequency = 1.000000
+win/100 hands = -1.217
+EOR% = -0.042331%
+System1 = -4.2
+System2 = -4
+
+=== REMOVED 3 Cuori ===
+lost: 1806320, win: 1744624, asso: 3360, push: 389850, tot: 3944154
+P(win)  = 0.442332
+P(lost) = 0.457974
+P(asso) = 0.000852
+P(push) = 0.098842
+EV  = -0.012235
+EV% = -1.223
+var = 0.913786
+bet_frequency = 1.000000
+win/100 hands = -1.223
+EOR% = -0.048416%
+System1 = -4.8
+System2 = -5
+
+=== REMOVED 4 Cuori ===
+lost: 1806560, win: 1744624, asso: 3360, push: 389610, tot: 3944154
+P(win)  = 0.442332
+P(lost) = 0.458035
+P(asso) = 0.000852
+P(push) = 0.098782
+EV  = -0.012296
+EV% = -1.230
+var = 0.913846
+bet_frequency = 1.000000
+win/100 hands = -1.230
+EOR% = -0.054501%
+System1 = -5.5
+System2 = -5
+
+=== REMOVED 5 Cuori ===
+lost: 1806800, win: 1744624, asso: 3360, push: 389370, tot: 3944154
+P(win)  = 0.442332
+P(lost) = 0.458096
+P(asso) = 0.000852
+P(push) = 0.098721
+EV  = -0.012357
+EV% = -1.236
+var = 0.913905
+bet_frequency = 1.000000
+win/100 hands = -1.236
+EOR% = -0.060586%
+System1 = -6.1
+System2 = -6
+
+=== REMOVED 6 Cuori ===
+lost: 1806992, win: 1746112, asso: 3360, push: 387690, tot: 3944154
+P(win)  = 0.442709
+P(lost) = 0.458144
+P(asso) = 0.000852
+P(push) = 0.098295
+EV  = -0.012028
+EV% = -1.203
+var = 0.914339
+bet_frequency = 1.000000
+win/100 hands = -1.203
+EOR% = -0.027727%
+System1 = -2.8
+System2 = -3
+
+=== REMOVED 7 Cuori ===
+lost: 1809440, win: 1747264, asso: 3360, push: 384090, tot: 3944154
+P(win)  = 0.443001
+P(lost) = 0.458765
+P(asso) = 0.000852
+P(push) = 0.097382
+EV  = -0.012357
+EV% = -1.236
+var = 0.915244
+bet_frequency = 1.000000
+win/100 hands = -1.236
+EOR% = -0.060586%
+System1 = -6.1
+System2 = -6
+
+=== REMOVED 8 Cuori ===
+lost: 1809440, win: 1747264, asso: 3360, push: 384090, tot: 3944154
+P(win)  = 0.443001
+P(lost) = 0.458765
+P(asso) = 0.000852
+P(push) = 0.097382
+EV  = -0.012357
+EV% = -1.236
+var = 0.915244
+bet_frequency = 1.000000
+win/100 hands = -1.236
+EOR% = -0.060586%
+System1 = -6.1
+System2 = -6
+
+=== REMOVED 9 Cuori ===
+lost: 1809440, win: 1747264, asso: 3360, push: 384090, tot: 3944154
+P(win)  = 0.443001
+P(lost) = 0.458765
+P(asso) = 0.000852
+P(push) = 0.097382
+EV  = -0.012357
+EV% = -1.236
+var = 0.915244
+bet_frequency = 1.000000
+win/100 hands = -1.236
+EOR% = -0.060586%
+System1 = -6.1
+System2 = -6
+
+=== REMOVED 10 Cuori ===
+lost: 1796880, win: 1757424, asso: 3360, push: 386490, tot: 3944154
+P(win)  = 0.445577
+P(lost) = 0.455581
+P(asso) = 0.000852
+P(push) = 0.097991
+EV  = -0.006596
+EV% = -0.660
+var = 0.914744
+bet_frequency = 1.000000
+win/100 hands = -0.660
+EOR% = 0.515457%
+System1 = 51.5
+System2 = 52
+
+
+==========================
+=== SIMULAZIONE (Game) ===
+==========================
+shoe  = 100000000
+mazzi  = 4 mazzi
+taglio = 14
+punt_asso = 4
+regole:
+- player cambia se ha {1,2,3,4,5};
+- dealer cambia se ha {1,2,3,4,5,6}.
+
+
+=== TAGS (System1/System2) ===
+v=1  S1=-1.668968  S2=-2
+v=2  S1=-0.705517  S2=-1
+v=3  S1=-0.806933  S2=-1
+v=4  S1=-0.908349  S2=-1
+v=5  S1=-1.009764  S2=-1
+v=6  S1=-0.462119  S2=0
+v=7  S1=-1.009764  S2=-1
+v=8  S1=-1.009764  S2=-1
+v=9  S1=-1.009764  S2=-1
+v=10  S1=8.590942  S2=9
+
+=== SIM (tutte le mani) ===
+lost: 2583400963, win: 2498869550, asso: 4719597, push: 554139885, tot: 5641129995
+P(win)  = 0.442973 +/- 0.000009
+P(lost) = 0.457958 +/- 0.000009
+P(asso) = 0.000837 +/- 0.000000
+P(push) = 0.098232 +/- 0.000004
+EV  = -0.011638 +/- 0.000013
+EV% = -1.164 +/- 0.001
+var = 0.914182 +/- 0.000007
+bet_frequency = 1.000000 +/- 0.000000
+win/100 bet hands = -1.164 +/- 0.001
+win/100 hands = -1.164 +/- 0.001
+win/shoe = -0.657 +/- 0.000
+
+=== SIM (solo se TC System1 > 7.000000) ===
+lost: 511966265, win: 538508652, asso: 1213694, push: 113870607, tot: 1165559218
+P(win)  = 0.462017 +/- 0.000020
+P(lost) = 0.439245 +/- 0.000019
+P(asso) = 0.001041 +/- 0.000001
+P(push) = 0.097696 +/- 0.000009
+EV  = 0.026937 +/- 0.000028
+EV% = 2.694 +/- 0.003
+var = 0.917198 +/- 0.000017
+bet_frequency = 0.206618 +/- 0.000005
+win/100 bet hands = 2.694 +/- 0.003
+win/100 hands = 0.557 +/- 0.001
+win/shoe = 0.314 +/- 0.000
+
+=== SIM (solo se TC System2 > 7.000000) ===
+lost: 577617995, win: 603707497, asso: 1383494, push: 127284788, tot: 1309993774
+P(win)  = 0.460848 +/- 0.000019
+P(lost) = 0.440932 +/- 0.000018
+P(asso) = 0.001056 +/- 0.000001
+P(push) = 0.097164 +/- 0.000009
+EV  = 0.024140 +/- 0.000026
+EV% = 2.414 +/- 0.003
+var = 0.918094 +/- 0.000016
+bet_frequency = 0.232222 +/- 0.000006
+win/100 bet hands = 2.414 +/- 0.003
+win/100 hands = 0.561 +/- 0.001
+win/shoe = 0.316 +/- 0.000
+
