@@ -52,7 +52,7 @@ The Player chooses either:
 From the project root:
 
 ```bash
-cd MoRTo
+cd MoRTo_v1.0
 make
 ./MoRTo.exe [output_results_file]
 ```
