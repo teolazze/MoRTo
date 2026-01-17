@@ -1,4 +1,4 @@
-# MoRTo
+# <img src="logo.png" alt="MoRTo logo" width="40" align="left"> MoRTo
 
 **MoRTo** is a C++ project that performs **exact (combinatorial) calculations** and **Monte Carlo simulations**
 for a custom card game called **Morto**. It also provides **card-counting statistics** (two counting/tag systems)
