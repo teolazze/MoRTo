@@ -110,14 +110,14 @@ Random generaRand(){
     Random rnd;
     int seed[4];
     int p1, p2;
-    ifstream Primes("/home/matteo/Documenti/LSN2024/rangen/Primes");
+    ifstream Primes("./rangen/Primes");
     if (Primes.is_open()){
       Primes >> p1 >> p2 ;
       //cout << p1 << "  " << p2 << endl;
     } else cerr << "PROBLEM: Unable to open Primes" << endl;
     Primes.close();
 
-    ifstream input("/home/matteo/Documenti/LSN2024/rangen/seed.in");
+    ifstream input("./rangen/seed.in");
     string property;
     if (input.is_open()){
       while ( !input.eof() ){
@@ -136,7 +136,7 @@ Random generaRand(int pr){
     Random rnd;
     int seed[4];
     int p1, p2;
-    ifstream Primes("/home/matteo/Documenti/LSN2024/rangen/Primes");
+    ifstream Primes("./rangen/Primes");
     if (Primes.is_open()){
       for(int i = 0; i < pr; i++){
          Primes >> p1 >> p2;
@@ -145,7 +145,7 @@ Random generaRand(int pr){
     } else cerr << "PROBLEM: Unable to open Primes" << endl;
     Primes.close();
 
-    ifstream input("/home/matteo/Documenti/LSN2024/rangen/seed.in");
+    ifstream input("./rangen/seed.in");
     string property;
     if (input.is_open()){
       while ( !input.eof() ){
