@@ -53,5 +53,24 @@ From the project root:
 
 ```bash
 cd MoRTo
+
+## Configuration (`input.txt`)
+
+All main options are controlled via `input.txt`.
+
+---
+
+## Combinatorial Calculation Parameters
+
+```txt
+===============================
+PARAMETRI CALCOLO COMBINATORIO:
+===============================
+
+mazzi: 4
+vincita_asso: 4
+rulesp: {true,true,true,true,true,false,false,false,false,false}
+rulesd: {true,true,true,true,true,true,false,false,false,false}
+
 make
 ./MoRTo.exe [output_results_file]
